@@ -11,29 +11,6 @@
         "displayValue" : null,
         "value" : "AH-00001"
       },
-      "Owner" : {
-        "displayValue" : "Test User",
-        "value" : {
-          "apiName" : "User",
-          "childRelationships" : { },
-          "eTag" : "f1a72efecde2ece9844980f21b4a0c25",
-          "fields" : {
-            "Id" : {
-              "displayValue" : null,
-              "value" : "005o0000000KEEUAA4"
-            },
-            "Name" : {
-              "displayValue" : null,
-              "value" : "Test User"
-            }
-          },
-          "id" : "005o0000000KEEUAA4",
-          "lastModifiedById" : "005o0000000KEEUAA4",
-          "lastModifiedDate" : "2019-08-22T23:45:53.000Z",
-          "recordTypeInfo" : null,
-          "systemModstamp" : "2019-08-23T06:00:11.000Z"
-        }
-      },
       "Who__c" : {
         "displayValue" : "Test User",
         "value" : {
