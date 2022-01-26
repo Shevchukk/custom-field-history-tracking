@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Classes" class="slds-p-around_medium" icon-name="standard:education">
+        <div>
+            <lightning-datatable
+                key-field="Id"
+                data={data}
+                columns={columns}
+                onrowaction={handleDeleteAction}
+                hide-checkbox-column="true">
+            </lightning-datatable>
+        </div>
+   </lightning-card>
+</template>
