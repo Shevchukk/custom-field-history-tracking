@@ -18,7 +18,8 @@ export default class LastChanges extends LightningElement {
     @wire(getActivityHistory, {currentRecordId: '$recordId'})
     wiredRecords({ data, error }) {
         if(data) {
-            this.activity = [];
+            console.log(data);
+          this.activity = [];
             data.forEach(row => {
                 let rowData = {};
                 if(row.Who__r) {
